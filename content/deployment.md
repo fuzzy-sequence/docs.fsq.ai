@@ -1,13 +1,14 @@
 ---
 title: "Deployments"
 linkTitle: "Deployments"
+type: docs
 weight: 40
 description: >
   Deploying AI capabilities to fleet of devices.
 ---
 
 To deploy an AI capability onto a device, the latter needs to be connected to the Fuzzy Sequence platform.
-See [Fleet Management](/docs/fleet) for more information.
+See [Fleet Management](/fleet-management) for more information.
 
 Deployment of a capability consists of the following steps:
 

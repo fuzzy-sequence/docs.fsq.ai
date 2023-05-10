@@ -1,6 +1,7 @@
 ---
 title: "Demographics with OpenCV"
 linkTitle: "Demographics"
+type: docs
 weight: 10
 draft: true
 ---

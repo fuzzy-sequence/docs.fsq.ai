@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 linkTitle: "Getting Started"
+type: docs
 weight: 10
 description: >
   All you need to start using Fuzzy Sequence.

@@ -1,6 +1,7 @@
 ---
 title: "Reference Guides"
 linkTitle: "Reference Guides"
+type: docs
 weight: 100
 description: >
   Detailed information about all components of the platform.

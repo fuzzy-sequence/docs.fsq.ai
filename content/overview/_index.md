@@ -1,6 +1,7 @@
 ---
 title: "Overview"
 linkTitle: "Overview"
+type: docs
 weight: 5
 description: >
   General  information about Fuzzy Sequence and its use cases. Start here to learn where Fuzzy Sequence fits in your workflow.
@@ -43,7 +44,7 @@ The platform is designed to be used by data scientists, hardware manufacturers, 
 
 Fuzzy Sequence helps the data scientists and researchers
 to monetize and expand the reach of their AI models
-by deploying them to fleets of edge devices. Learn more about [Model Registry](/docs/model-registry/).
+by deploying them to fleets of edge devices. Learn more about [Model Registry](/model-registry).
 
 {{< imgproc data-sci Resize "500X280" />}}
 
@@ -51,7 +52,7 @@ by deploying them to fleets of edge devices. Learn more about [Model Registry](/
 For data scientist interested in specific applications
 Fuzzy Sequence allows to incorporating Edge AI devices into the MLOps processes.
 The Edge fleet becomes a part of their IaaS solution.
-Learn more about integrations with public cloud providers: [AWS](/docs/tutorials/aws/), [Azure](/docs/tutorials/azure/), [GCP](/docs/tutorials/gcp/).
+Learn more about integrations with public cloud providers: [AWS](/tutorials/aws), [Azure](/tutorials/azure), [GCP](/tutorials/gcp).
 
 
 ## For Hardware Manufacturers
@@ -68,8 +69,8 @@ In addition to this Fuzzy Sequence enables businesses to build new specialized p
 
 ## For Integrators and Solution Providers
 
-Connection [Model Registry](/docs/model-registry/),
-[Fleet Management Agent](/docs/device-fleet-management/) and [Console](/docs/console) allows to radically simplify deployment and management
+Connection [Model Registry](/model-registry),
+[Fleet Management Agent](/device-fleet-management) and [Console](/console) allows to radically simplify deployment and management
 of AI-powered capabilities at scale.
 It fills in the gap between RnD and production, driving implementation costs down.
 

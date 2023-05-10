@@ -1,6 +1,7 @@
 ---
 title: "Model Registry integration with AWS"
 linkTitle: "AWS Integration"
+type: docs
 weight: 20
 ---
 
