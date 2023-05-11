@@ -92,19 +92,15 @@ using fsq::model::v1alpha::AddModelsResponse;
 
 int main(int argc, char** argv) {
   // Read the private key and certificate chain from files
-  std::string key_data, cert_data;
+
   std::ifstream key_file("/path/to/client/key.pem", std::ios::binary);
   std::ifstream cert_file("/path/to/client/cert.pem", std::ios::binary);
-  key_file.seekg(0, std::ios::end);
-  key_data.reserve(key_file.tellg());
-  key_file.seekg(0, std::ios::beg);
-  key_data.assign((std::istreambuf_iterator<char>(key_file)),
-      std::istreambuf_iterator<char>());
-  cert_file.seekg(0, std::ios::end);
-  cert_data.reserve(cert_file.tellg());
-  cert_file.seekg(0, std::ios::beg);
-  cert_data.assign((std::istreambuf_iterator<char>(cert_file)),
-      std::istreambuf_iterator<char>());
+
+  std::string key_data((std::istreambuf_iterator<char>(key_file)),
+                        std::istreambuf_iterator<char>());
+
+  std::string cert_data((std::istreambuf_iterator<char>(cert_file)),
+                        std::istreambuf_iterator<char>());
 
   // Set up SSL credentials
   SslCredentialsOptions ssl_opts;

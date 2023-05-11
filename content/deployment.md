@@ -32,10 +32,7 @@ AI capabilities consist of a set of models and metadata. Model sets are immutabl
 They include specific versions of models to ensure that every devices receives the same exact package.
 
 Metadata adds flexibility to the model set, allowing developers to reference libraries already present on the device.
-For example, in the first version of the logic preliminary image processing can be done with OpenCV and
+For example, in the first version of the logic image processing can be done with OpenCV and
 the results passed to more specialized models. The next version of the logic might use specialized model instead of OpenCV.
 New model set can use the same firmware to change the AI capability based on metadata.
-
-
-## Starting a Deployment
 
