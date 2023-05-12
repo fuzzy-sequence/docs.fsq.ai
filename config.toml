@@ -27,3 +27,7 @@ enableGitInfo = false
   post = '<sup><i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i></sup>'
   weight = 20
   url = "https://buf.build/fuzzy-sequence/fsq"
+
+[services]
+[services.googleAnalytics]
+id = 'G-EBZX3CKEJN'
